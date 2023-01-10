@@ -1,0 +1,31 @@
+
+\documentclass[12pt]{article}
+% LaTeX packages and global styles
+\input{base/packages}
+\input{base/style}
+\newtheorem{theorem}{Theorem}% Beginning of the document
+\begin{document}
+    % Title page and unnumbered sections
+    \input{sections/00_front_page}
+    \input{sections/00_abstract}
+    
+    % Index of the document and figures
+    \begingroup
+        % Links are normally blue, but indexes are set to black
+        % so that everything does not appear blue
+        \hypersetup{linkcolor=black}
+        \tableofcontents
+        %\listoffigures % uncomment to display list of code 
+        %\lstlistoflistings % uncomment to display list of code 
+    \endgroup
+    
+    % Change page number style to normal
+    \clearpage\pagenumbering{arabic}
+    
+    % Sections and chapters
+    \input{sections/01_introduction}
+     % \appendix
+  
+
+% End of the document
+\end{document}
