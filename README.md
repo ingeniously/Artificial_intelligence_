@@ -1,4 +1,3 @@
-# Artificial_intelligence_
 
 # Arficial Intelligence
 ### Artificial Intelligence Tips 
