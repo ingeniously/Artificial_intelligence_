@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.6)  15 JAN 2023 16:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.6)  15 JAN 2023 16:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/user/Python/Neural_Networks_ANN/ANN_For_Diabete_Prediction/Project_Proposal/LastNameI-[RnD-MT]Proposal.tex
-(c:/Users/user/Python/Neural_Networks_ANN/ANN_For_Diabete_Prediction/Project_Proposal/LastNameI-[RnD-MT]Proposal.tex
+**c:/Users/user/Python/Artificial_intelligence_/Neural_Networks_ANN/ANN_For_Diabete_Prediction/Project_Proposal/Project_Proposal.tex
+(c:/Users/user/Python/Artificial_intelligence_/Neural_Networks_ANN/ANN_For_Diabete_Prediction/Project_Proposal/Project_Proposal.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17> (mas_proposal.cls
 Document Class: mas_proposal 2018/01/25 The MAS report class
@@ -602,8 +602,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip72
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 18.
- (LastNameI-[RnD-MT]Proposal.aux)
-\openout1 = `LastNameI-[RnD-MT]Proposal.aux'.
+ (Project_Proposal.aux)
+\openout1 = `Project_Proposal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
@@ -699,9 +699,9 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 29.
 
 Package hyperref Info: Link coloring ON on input line 29.
-(LastNameI-[RnD-MT]Proposal.out) (LastNameI-[RnD-MT]Proposal.out)
+(Project_Proposal.out) (Project_Proposal.out)
 \@outlinefile=\write4
-\openout4 = `LastNameI-[RnD-MT]Proposal.out'.
+\openout4 = `Project_Proposal.out'.
 
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -787,20 +787,20 @@ Overfull \hbox (34.40733pt too wide) in paragraph at lines 129--130
 [][][]$\OT1/cmr/m/n/12 (-20) https : / / github . com / ingeniously / Arti^^Lcial[]intelligence[] / tree / main / Neural[]Networks[]
  []
 
-[3] [4] (LastNameI-[RnD-MT]Proposal.aux)
-Package rerunfilecheck Info: File `LastNameI-[RnD-MT]Proposal.out' has not changed.
+[3] [4] (Project_Proposal.aux)
+Package rerunfilecheck Info: File `Project_Proposal.out' has not changed.
 (rerunfilecheck)             Checksum: 251BE19284C72B88F01BA4367B4A08C8;1301.
  ) 
 Here is how much of TeX's memory you used:
  26222 strings out of 476406
- 485266 string characters out of 2790040
+ 485336 string characters out of 2790040
  1860787 words of memory out of 3000000
  46030 multiletter control sequences out of 15000+600000
  521960 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,12n,108p,1108b,862s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 114i,12n,108p,1123b,862s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\user\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on LastNameI-[RnD-MT]Proposal.pdf (5 pages, 214583 bytes).
+Output written on Project_Proposal.pdf (5 pages, 214583 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
