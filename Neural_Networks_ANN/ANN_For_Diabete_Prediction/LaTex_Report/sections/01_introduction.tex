@@ -1,38 +1,14 @@
-\section{Introduction}
-\label{chap:introduction}
+\section{Motivation}
+\label{chap:Motivation}
 
 
 Diabetes is a chronic medical condition which is estimated to affect 415 million people in the world.
  5 million deaths a year can be attributed to diabetes-related complications.
 Type 2 diabetes can be prevented and reversed if diagnosed early.
-We can use machine learning to predict diabetes in patients using vital 
+Why not using machine learning to predict diabetes in patients using vital 
 statistics by using datasets where patients have been diagnosed. By training a neural network,
-we can use it to make predictions on new patients
+we can use it to make predictions on new patients.
 \\
-\\
-In order to run through the example below, y
-ou must have installed \textcolor{blue}{Python},
-setup a notebook,and create a  \textcolor{blue}{virtual environnement},and install
-  all these packages:
-
-
-\begin{itemize}
-    \item TensorFlow
-    \item Keras
-    \item Seaborn
-    \item pydot
-    \item scikit-learn
-    \item pandas
-    \item Matplotlib
-\end{itemize}
-
-For this project purpose we had use 
-\textbf{Anaconda },and setup a virtual environment to use a \textbf{jupiter notebook.}
-\\
-Learn how to how to install the prerequiste using the link below:
-
-
-\url{https://towardsdatascience.com/virtual-environments-in-anaconda-jupyter}
 
 \section{The data}
 \label{chap:data}
@@ -40,12 +16,14 @@ First, we use this data set from Kaggle which tracks diabetes in Pima Native Ame
  We use it to build a predictive model of how likely someone is to get or have diabetes given their age,
   body mass index, glucose and insulin levels, skin thickness, etc.
 
-  \newpage
-
 \subsection{initial observation}
 \label{sec:data}
-\textcolor{red}{\textbf{-Import the dataframe with pandas}}\\
-We have several categories along with the outcome which is a binary classification.
+
+ 
+\hspace{1cm}\textcolor{red}{\textbf{\underline{{-Import the dataframe with pandas}}\\
+}}
+
+We have several categories along with the outcome which is  binary .
 
 \begin{figure}[htp]
     \centering
@@ -55,8 +33,8 @@ We have several categories along with the outcome which is a binary classificati
 \end{figure}
 
 
-\textcolor{red}{\textbf{-browse the data, listing maximum and minimum and average values}}
-
+\textcolor{red}{\textbf{\underline{-Browse the data, listing maximum and minimum and average values}}
+}
 \begin{figure}[htp]
     \centering
     \includegraphics[width=1.3\textwidth]{images/dataframe-description.png}
@@ -67,8 +45,9 @@ We have several categories along with the outcome which is a binary classificati
 The data also needs to be scaled in order to allow the neural network to work effectively.
 we will talk about the Data cleaning and preprocessing in the following part.
 
-\newpage
-\textcolor{red}{\textbf{-Check correlation with heatmap graph}}\\
+
+\textcolor{red}{\underline{\textbf{-Check correlation with heatmap graph}}}\\
+
 That is not important for the final model but is useful to 
 gain further insight into the data.
 This is the code we used for correlation map:
@@ -82,7 +61,7 @@ This is the code we used for correlation map:
 
     \begin{figure}[htp]
         \centering
-        \includegraphics[width=1.1\textwidth]{images/correlation.png}
+        \includegraphics[width=0.8\textwidth]{images/correlation.png}
         \caption{correlation }
         \label{fig:example3}
     \end{figure}
@@ -97,7 +76,8 @@ This is the code we used for correlation map:
    }
 \subsection{Data preparation}
 \label{sec:data}
-\textcolor{red}{Splitting the dataset into training set and test set}
+\textcolor{red}{\underline{\textbf{Splitting the dataset into training set and test set}
+}}
 \begin{lstlisting}
     labels=df['Outcome']
     features = df.iloc[:,1:8]
@@ -113,8 +93,12 @@ This is the code we used for correlation map:
     \item We use the scikit-learn function train-test-split(X, y, testsize=0.33, randomstate=42) to split the data into training and test data sets, given 33\% of the records to the test data set. The training data set is used to train the mode, meaning find the weights and biases. The test data set is used to check its accuracy.
     \item \textbf{Label} is not an array. It is a column in a dataset. So we use the NumPy np.ravel() function to convert that to an array.
 \end{itemize}
- 
-\textcolor{red}{Transform data in the same scale}\\
+
+
+\textcolor{red}{\underline{\textbf{Transform data in the same scale\\}}
+}
+
+
 StandardScaler does this in two steps:\textcolor{blue}{\textbf{fit()}} and \textcolor{blue}{\textbf{transform()} }.\\
 
 \begin{lstlisting}
@@ -125,7 +109,7 @@ StandardScaler does this in two steps:\textcolor{blue}{\textbf{fit()}} and \text
 \end{lstlisting}
 
 
-\section{Building the Neural Network}
+\section{Building the Convolutional Neural Network}
 \label{chap:approach}
 This neural network will be built with Keras by using the Sequential class.
 
@@ -137,15 +121,13 @@ This neural network will be built with Keras by using the Sequential class.
     model.add(Dense(7, activation='relu'))
     model.add(Dense(1, activation='sigmoid'))   
 \end{lstlisting}
-\subsection{Actiavtion function}
-\label{sec:Actiavtion function}
-  \todo[inline]{\Large Pick an activation function for each layer}
+\subsection{Activation function}
+\label{sec:Activation function}
+  \todo[inline]{\Large\textbf{ Pick an activation function for each layer}}
     For the first two layers we use a relu (rectified linear unit) activation function.
      That choice means nothing, as you could have picked sigmoid.
     reluI is 1 for all positive values and 0 for all negative ones
   
-    \newpage
-
     \begin{figure}[htp]
         \centering
         \includegraphics[width=1.1\textwidth]{images/sigmoid.png }
@@ -153,11 +135,12 @@ This neural network will be built with Keras by using the Sequential class.
         \label{fig:example4}
     \end{figure}
   
-    \todo[inline]{\Large input-shape}
+    \todo[inline]{\Large\textbf{ Input-shape}}
     we only have to give it the shape (dimensions) of the input on the first layer. 
     It’s (7,) since it’s a vector of 7 features
+    \newpage
 
-    \todo[inline]{\Large Dense}
+    \todo[inline]{\Large\textbf{Dense}}
     The first argument in the Dense function is the number of hidden units, 
     a parameter that you can adjust to improve the accuracy of the model
 
@@ -167,7 +150,6 @@ This neural network will be built with Keras by using the Sequential class.
         \caption{Neural Network }
         \label{fig:example4}
     \end{figure}
-\newpage
 \subsection{Keras model fit}
 \label{sec:Keras model fit}
     \begin{figure}[htp]
@@ -176,24 +158,24 @@ This neural network will be built with Keras by using the Sequential class.
         \caption{train code }
         \label{fig:example5}
     \end{figure}
-
+  
     \begin{itemize}
-        \item \textbf{\textcolor{red}{\Large loss:}}
+        \item \textbf{\textcolor{red}{\Large\underline{Loss:}}}
         he goal of the neural network is to minimize the loss function,
         There are many functions we can use. We pick binary-crossentropy 
         because our label data is binary (1) diabetic and (0) not diabetic.
 
-        \item \textbf{\textcolor{red}{\Large optimizer-adam:}}
+        \item \textbf{\textcolor{red}{\Large\underline{Optimizer-adam:}}}
         use the optimizer function adam, Adaptative moment estimation.
         It’s an algorithm designed to minimize the loss function in the quickest way possible.
 
-        \item \textbf{\textcolor{red}{\Large Epoch:}}
+        \item \textbf{\textcolor{red}{\Large\underline{Epoch:}}}
         means how many times to run the model. it is an iterative process.
          You could add additional epochs, but the accuracy might not change much. 
          
-        \item \textbf{\textcolor{red}{\Large batch size:}}
+         \item \textbf{\textcolor{red}{\Large \underline{Batch size:}}}
          means divide the input data into n batches and process each in parallel.
-        \item \textbf{\textcolor{red}{\Large fit():}}
+         \item \textbf{\textcolor{red}{\Large\underline{Fit():}}}
         trains the model, meaning calculates the weights, biases, number of layers, etc.
     \end{itemize}
     
@@ -218,19 +200,19 @@ Epoch 3/30
 344/344 [==============================] - 2s 5ms/step - loss: 0.4654 - accuracy: 0.7820 - val_loss: 0.5022 - val_accuracy: 0.7471    
     \end{lstlisting}
     
-    \newpage
+
 \section{Results}
 \label{chap:results}
 
 \subsection{Precision}
 \label{sec:Precision}
 
-\todo[inline]{\Large Precision}
+\todo[inline]{\Large\textbf{ Precision}}
 So, our predictive model is \textbf{57\% } accurate while \textcolor{blue}{\underline{training}} and \textbf{85\% } while \textcolor{blue}{\underline {Testing}}.
 
 \begin{figure}[htp]
     \centering
-    \includegraphics[width=1.3\textwidth]{images/accuracy.png}
+    \includegraphics[width=1.1\textwidth]{images/accuracy.png}
     \caption{Neural Network }
     \label{fig:example4}
 \end{figure}
@@ -238,7 +220,7 @@ So, our predictive model is \textbf{57\% } accurate while \textcolor{blue}{\unde
 \subsection{Confusion Matrix}
 \label{sec:Confusion Matrix}
 
-\todo[inline]{\Large Confusion Matrix}
+\todo[inline]{\Large\textbf{ Confusion Matrix}}
 
 
 \begin{figure}[htp]
@@ -264,7 +246,7 @@ So, our predictive model is \textbf{57\% } accurate while \textcolor{blue}{\unde
 
  \subsection{classification Report}
  \label{sec:classification Report}
-\todo[inline]{\Large classification Report}
+\todo[inline]{\Large\textbf{classification Report}}
 
 Here you can see the precision is 61 for Diabetic(1) and 81 for non Diabetics(0) determiation
 \begin{figure}[htp]
@@ -281,7 +263,7 @@ Visualize Model Training History in Keras.
 You can create plots from the collected history data.
 he example collects the history returned from training the model and creates a chart:
          
-\hspace{1cm} \textbf{\textcolor{red}{ In the same graph}}
+\hspace{2cm} \textbf{\textcolor{red}{\Large\underline{In the same graph}}}
 \begin{itemize}
     \item The accuracy on the training and validation datasets over training epochs
     \item  The loss on the training and validation datasets over training epochs 
@@ -295,11 +277,11 @@ he example collects the history returned from training the model and creates a c
 \end{figure}
 
 
-\todo[inline]{
-    -From the plot of the accuracy, you can see that the model could probably be trained a little more as the trend for accuracy on both datasets is still rising a little bit for the last few epochs
+\todo[inline]{\textbf{ 
+    -From the plot of the accuracy}, you can see that the model could probably be trained a little more as the trend for accuracy on both datasets is still rising a little bit for the last few epochs
     }
-    \todo[inline]{
-    -From the plot of the loss, you can see that the model has comparable performance on both train and validation datasets (labeled test). If these parallel plots start to depart consistently, it might be a sign to stop training at an earlier epoch.
+    \todo[inline]{\textbf{ 
+    -From the plot of the loss}, you can see that the model has comparable performance on both train and validation datasets (labeled test). If these parallel plots start to depart consistently, it might be a sign to stop training at an earlier epoch.
     }
 
 \subsection{Limitations and Challenges}
@@ -333,8 +315,4 @@ the network rather than through explicit rules or decision trees.
     \\4.They are flexible and adaptable.
     \\5.They can be trained to perform well on a wide range of classification tasks.
 }
-\begin{theorem}[label={theorem:label}]{Title}
-    Some text goes here!  
-\end{theorem}
-
 \newpage

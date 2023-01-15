@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.6)  10 JAN 2023 21:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.6)  15 JAN 2023 12:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/user/Python/ANN_Diabetes_Detection_Report/report.tex
-(c:/Users/user/Python/ANN_Diabetes_Detection_Report/report.tex
+**c:/Users/user/Python/Neural_Networks_ANN/ANN_For_Diabete_Prediction/LaTex_Report/report.tex
+(c:/Users/user/Python/Neural_Networks_ANN/ANN_For_Diabete_Prediction/LaTex_Report/report.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17> (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -954,157 +954,155 @@ Package hyperref Info: bookmark level for unknown todo defaults to 0 on input li
 \openout5 = `report.toc'.
 
  [2] (sections/01_introduction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--17
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 20.
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 35.
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
-File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Overfull \hbox (27.86023pt too wide) in paragraph at lines 35--36
-[][][]$\OT1/lmtt/m/n/12 https : / / towardsdatascience . com / virtual-[]environments-[]in-[]anaconda-[]jupyter$[][] 
+<images/dataframe.png, id=94, 853.68938pt x 304.13625pt>
+File: images/dataframe.png Graphic file (type png)
+<use images/dataframe.png>
+Package pdftex.def Info: images/dataframe.png  used on input line 30.
+(pdftex.def)             Requested size: 661.5266pt x 235.68922pt.
+
+Overfull \hbox (220.50887pt too wide) in paragraph at lines 30--31
+ [][] 
+ []
+
+<images/dataframe-description.png, id=96, 857.45343pt x 239.39438pt>
+File: images/dataframe-description.png Graphic file (type png)
+<use images/dataframe-description.png>
+Package pdftex.def Info: images/dataframe-description.png  used on input line 40.
+(pdftex.def)             Requested size: 573.32439pt x 160.06828pt.
+
+Overfull \hbox (132.30666pt too wide) in paragraph at lines 40--41
+ [][] 
  []
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.43   \newpage
-                [1
+l.47 
+      [1
 
-]
-<images/dataframe.png, id=100, 853.68938pt x 304.13625pt>
-File: images/dataframe.png Graphic file (type png)
-<use images/dataframe.png>
-Package pdftex.def Info: images/dataframe.png  used on input line 52.
-(pdftex.def)             Requested size: 661.5266pt x 235.68922pt.
 
-Overfull \hbox (220.50887pt too wide) in paragraph at lines 52--53
- [][] 
- []
-
-<images/dataframe-description.png, id=102, 857.45343pt x 239.39438pt>
-File: images/dataframe-description.png Graphic file (type png)
-<use images/dataframe-description.png>
-Package pdftex.def Info: images/dataframe-description.png  used on input line 62.
-(pdftex.def)             Requested size: 573.32439pt x 160.06828pt.
-
-Overfull \hbox (132.30666pt too wide) in paragraph at lines 62--63
- [][] 
- []
-
-[2
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.70 \newpage
-             
+l.47 
+      <./images/dataframe.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 55.
+(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
+File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+<images/correlation.png, id=102, 632.3625pt x 420.82219pt>
+File: images/correlation.png Graphic file (type png)
+<use images/correlation.png>
+Package pdftex.def Info: images/correlation.png  used on input line 64.
+(pdftex.def)             Requested size: 352.81552pt x 234.79195pt.
+ [2
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.70 \newpage
-              <./images/dataframe.png> <./images/dataframe-description.png>]
-<images/correlation.png, id=111, 632.3625pt x 420.82219pt>
-File: images/correlation.png Graphic file (type png)
-<use images/correlation.png>
-Package pdftex.def Info: images/correlation.png  used on input line 85.
-(pdftex.def)             Requested size: 485.1222pt x 322.83974pt.
-
-Overfull \hbox (44.10446pt too wide) in paragraph at lines 85--86
- [][] 
- []
-
-[3
+l.77 \subsection{Data preparation}
+                                  
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.107     X_train,
-                   X_test, y_train, y_test = train_test_split(X, y, test_siz... <./images/correlation.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 117--119
+l.77 \subsection{Data preparation}
+                                   <./images/dataframe-description.png> <./images/correlation.png>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 91.
+ (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
-[4]
-<images/sigmoid.png, id=148, 546.54187pt x 219.82124pt>
+[3]
+<images/sigmoid.png, id=138, 546.54187pt x 219.82124pt>
 File: images/sigmoid.png Graphic file (type png)
 <use images/sigmoid.png>
-Package pdftex.def Info: images/sigmoid.png  used on input line 151.
+Package pdftex.def Info: images/sigmoid.png  used on input line 133.
 (pdftex.def)             Requested size: 485.1222pt x 195.12038pt.
 
-Overfull \hbox (44.10446pt too wide) in paragraph at lines 151--152
+Overfull \hbox (44.10446pt too wide) in paragraph at lines 133--134
  [][] 
  []
 
-<images/Layers.jpg, id=149, 457.71pt x 250.9375pt>
-File: images/Layers.jpg Graphic file (type jpg)
-<use images/Layers.jpg>
-Package pdftex.def Info: images/Layers.jpg  used on input line 166.
-(pdftex.def)             Requested size: 396.91325pt x 217.61314pt.
-[5
+[4
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.170 \newpage
-              
+l.141     \newpage
+                   <./images/sigmoid.png>]
+<images/Layers.jpg, id=151, 457.71pt x 250.9375pt>
+File: images/Layers.jpg Graphic file (type jpg)
+<use images/Layers.jpg>
+Package pdftex.def Info: images/Layers.jpg  used on input line 149.
+(pdftex.def)             Requested size: 396.91325pt x 217.61314pt.
+<images/compile.png, id=152, 559.33969pt x 53.44969pt>
+File: images/compile.png Graphic file (type png)
+<use images/compile.png>
+Package pdftex.def Info: images/compile.png  used on input line 157.
+(pdftex.def)             Requested size: 573.32439pt x 54.78789pt.
+
+Overfull \hbox (132.30666pt too wide) in paragraph at lines 157--158
+ [][] 
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <17.28> on input line 163.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 163.
+[5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.170 \newpage
-               <./images/sigmoid.png> <./images/Layers.jpg>]
-<images/compile.png, id=159, 559.33969pt x 53.44969pt>
-File: images/compile.png Graphic file (type png)
-<use images/compile.png>
-Package pdftex.def Info: images/compile.png  used on input line 175.
-(pdftex.def)             Requested size: 573.32439pt x 54.78789pt.
-
-Overfull \hbox (132.30666pt too wide) in paragraph at lines 175--176
- [][] 
- []
-
-[6
+l.184         from 
+                   keras.layers import Dense
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.221     \newpage
-                   <./images/compile.png>]
-<images/accuracy.png, id=180, 590.95781pt x 76.78688pt>
+l.184         from 
+                   keras.layers import Dense <./images/Layers.jpg> <./images/compile.png>]
+<images/accuracy.png, id=161, 590.95781pt x 76.78688pt>
 File: images/accuracy.png Graphic file (type png)
 <use images/accuracy.png>
-Package pdftex.def Info: images/accuracy.png  used on input line 233.
-(pdftex.def)             Requested size: 573.32439pt x 74.49722pt.
+Package pdftex.def Info: images/accuracy.png  used on input line 215.
+(pdftex.def)             Requested size: 485.1222pt x 63.03593pt.
 
-Overfull \hbox (132.30666pt too wide) in paragraph at lines 233--234
+Overfull \hbox (44.10446pt too wide) in paragraph at lines 215--216
  [][] 
  []
 
-<images/confusion.png, id=181, 432.86719pt x 322.20375pt>
+<images/confusion.png, id=162, 432.86719pt x 322.20375pt>
 File: images/confusion.png Graphic file (type png)
 <use images/confusion.png>
-Package pdftex.def Info: images/confusion.png  used on input line 246.
+Package pdftex.def Info: images/confusion.png  used on input line 228.
 (pdftex.def)             Requested size: 308.71106pt x 229.7987pt.
-[7
+[6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.263  \newpage
-               
+l.236     \item  T
+                  otal in dataframe(No Diabetes)=168\\ <./images/accuracy.png>] [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.263  \newpage
-                <./images/accuracy.png> <./images/confusion.png>]
-<images/report.png, id=192, 418.56375pt x 226.59656pt>
+l.245  \newpage
+                <./images/confusion.png>]
+<images/report.png, id=191, 418.56375pt x 226.59656pt>
 File: images/report.png Graphic file (type png)
 <use images/report.png>
-Package pdftex.def Info: images/report.png  used on input line 272.
+Package pdftex.def Info: images/report.png  used on input line 254.
 (pdftex.def)             Requested size: 529.21992pt x 286.50203pt.
 
-Overfull \hbox (88.2022pt too wide) in paragraph at lines 272--273
+Overfull \hbox (88.2022pt too wide) in paragraph at lines 254--255
  [][] 
  []
 
@@ -1112,15 +1110,15 @@ Overfull \hbox (88.2022pt too wide) in paragraph at lines 272--273
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.289 \newpage
+l.271 \newpage
                <./images/report.png>]
-<images/graph.png, id=200, 533.74406pt x 352.31625pt>
+<images/graph.png, id=199, 533.74406pt x 352.31625pt>
 File: images/graph.png Graphic file (type png)
 <use images/graph.png>
-Package pdftex.def Info: images/graph.png  used on input line 292.
+Package pdftex.def Info: images/graph.png  used on input line 274.
 (pdftex.def)             Requested size: 529.21992pt x 349.364pt.
 
-Overfull \hbox (88.2022pt too wide) in paragraph at lines 292--293
+Overfull \hbox (88.2022pt too wide) in paragraph at lines 274--275
  [][] 
  []
 
@@ -1128,26 +1126,26 @@ Overfull \hbox (88.2022pt too wide) in paragraph at lines 292--293
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.325 
+l.307 
        <./images/graph.png>] [10]) (report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: E248D68F8C4F30CBBE4ECC269D8DD84B;1833.
+(rerunfilecheck)             Checksum: 6A484285D8A411DF7DAACE8597B8212C;1896.
  ) 
 Here is how much of TeX's memory you used:
- 26135 strings out of 476406
- 484900 string characters out of 2790040
+ 26144 strings out of 476406
+ 485545 string characters out of 2790040
  1952787 words of memory out of 3000000
- 45889 multiletter control sequences out of 15000+600000
- 556315 words of font info for 61 fonts, out of 8000000 for 9000
+ 45898 multiletter control sequences out of 15000+600000
+ 557179 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,8n,121p,1246b,1956s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on report.pdf (13 pages, 514399 bytes).
+ 114i,8n,121p,1276b,1956s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}<C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on report.pdf (13 pages, 491199 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 85 named destinations out of 1000 (max. 500000)
  180 words of extra memory for PDF output out of 10000 (max. 10000000)
 

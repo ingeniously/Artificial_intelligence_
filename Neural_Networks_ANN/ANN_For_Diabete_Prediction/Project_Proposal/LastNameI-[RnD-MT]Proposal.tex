@@ -1,0 +1,140 @@
+\documentclass[rnd]{mas_proposal}
+% \documentclass[thesis]{mas_proposal}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{todonotes}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\urlstyle{same}
+
+
+\title{Convolutionnal Neural Network For Diabete predictions}
+\author{Bassole Cedric-Francois/Bouchaala Mohamed}
+\date{December 2022}
+
+% \thirdpartylogo{path/to/your/image}
+
+\begin{document}
+
+\maketitle
+
+\pagestyle{plain}
+
+\section{Title \& Idea of this project}
+\begin{itemize}
+    \item\textbf{Diabetes} is a chronic medical condition which is estimated to affect 415 million people in the world.
+    \item 5 million deaths a year can be attributed to diabetes-related complications.
+    \item Type 2 diabetes can be prevented and reversed if diagnosed early.\\
+   \end{itemize}
+   \todo[inline]{ \textbf{So, why not using machine learning to predict diabetes in patients using vital 
+statistics by using datasets where patients have been diagnosed. By training a neural network,
+we can use it to make predictions on new patients.}}
+
+
+\section{Related Work}
+
+\subsection{Survey of Related Work}
+The risk of Type 2 diabetes was predicted using different machine learning algorithms as these algorithms are highly accurate which is very much required in the health profession
+\begin{itemize}
+    \item \textbf{Random Forest} \url{https://www.sciencedirect.com/science/article/pii/S1877050920308024}
+      \item \textbf{Support Vector Machine} \url{https://www.analyticsvidhya.com/blog/2022/01/diabetes-prediction-using-machine-learning/}
+      \item \textbf{Linear Regression} \url{https://github.com/sambit221/diabetes-prediction}
+
+    \end{itemize}
+
+\subsection{Limitation and Deficits in the State of the Art}
+\begin{itemize}
+    \item \textbf{The most important deficit we have notice with all the previous work is about the Precision.}Indeed The most accurate Machine learning algorithm for Diabete prediction rn is the Random Forest (not really High).
+    However This accuracy can be improve by Using Neural Net for a more voluptuous dataset
+    \item \textbf{This dataset only has eight categories(features) } which might not be enough to truly make accurate predictions
+   \item \textbf{A carrefull approach can permit us to say the number of (1) outcomes are thery
+low}. so the model can’t predict accuratly this category of persons
+7
+\item In the previous studies we also noticed The project purpose seems insuffisant and unfinished 
+\end{itemize}
+
+\section{Problem Statement}
+Then we decided to use an other approach of the problem:
+\begin{itemize}
+    \item Use a Convolutional neural Network to try to increse the accuracy for more important datasets about diagnoscticed persons
+    \item Moreover we will try to build a useful interface to permet real test for new patients
+Our main goal is to increase the precison by training the model and make this useful for medical purpose thanks to the user interface
+\end{itemize}
+
+\section{Project Plan}
+
+\subsection{Work Packages}
+In order to run through this Project, y
+ou must have installed \textcolor{blue}{Python},
+setup a notebook,and create a  \textcolor{blue}{virtual environnement},and install
+  all these packages:
+
+
+\begin{itemize}
+    \item TensorFlow
+    \item Keras
+    \item Seaborn
+    \item pydot
+    \item scikit-learn
+    \item pandas
+    \item Matplotlib
+\end{itemize}
+
+For this project purpose we had use 
+\textbf{Anaconda },and setup a virtual environment to use a \textbf{jupiter notebook.}
+\\
+Learn how to how to install the prerequiste using the link below:
+
+\url{https://towardsdatascience.com/virtual-environments-in-anaconda-jupyter}
+
+Moreover we used all the following purpose por different purpose
+
+
+\begin{itemize}
+    \item VS Code
+    \item Flutter SDK and Dart Packages to build the web page wze will use as user interface 
+    \item  Firebase API
+    \item MykTek and laTex Packages
+    \item Pearl
+    \item LyX
+\end{itemize}
+
+\subsection{Project Schedule}
+\textcolor{red}{All The document related to this project will are availlable in Github and 
+}
+\subsubsection*{Dataset}
+\begin{itemize}
+    \item \url{https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database}
+\end{itemize}
+
+\subsubsection*{Code Jupiter notebook}
+\begin{itemize}
+    \item \url{https://github.com/ingeniously/Artificial_intelligence_/tree/main/Neural_Networks_ANN/ANN_For_Diabete_Prediction/Python_code}
+\end{itemize}
+
+\subsubsection*{Report and Analysis}
+\begin{itemize}
+    \item \url{https://github.com/ingeniously/Artificial_intelligence_/tree/main/Neural_Networks_ANN/ANN_For_Diabete_Prediction/LaTex_Report}
+\end{itemize}
+
+\subsubsection*{Web interface}
+\begin{itemize}
+    \item \url{}
+\end{itemize}
+
+
+\nocite{*}
+
+\end{document}
