@@ -19,8 +19,7 @@ Then we decided to use an other approach of the problem:
 important datasets about diagnoscticed persons
 * Moreover we   build a useful interface to permet real test for newpatients. Our main goal is to increase the precison by training the model and
 make this useful for medical purpose thanks to the user interface.
-<img src="https://user-images.githubusercontent.com/111455408/211679755-a5c132f9-eab7-4fd3-9f99-b91f2730d587.jpg" width="800" height="400" />
-
+![Userinterface](https://user-images.githubusercontent.com/111455408/212757385-b0f5c3fd-7320-4fd4-87c8-777b0dc660dc.png)
 ## Related Work
 
 The risk of Type 2 diabetes was predicted using different machine learning algorithms as these algorithms are highly accurate which is very much required in the health profession
