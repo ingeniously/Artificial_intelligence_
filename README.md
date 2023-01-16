@@ -33,4 +33,3 @@ The risk of Type 2 diabetes was predicted using different machine learning algor
 
  * [ Linear Regression](https://github.com/sambit221/diabetes-prediction).
 
- 
