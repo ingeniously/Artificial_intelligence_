@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.6)  16 JAN 2023 12:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.6)  19 JAN 2023 19:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/user/Python/Artificial_intelligence_/Neural_Networks_ANN/ANN_For_Diabete_Prediction/Project_Proposal/Project_Proposal.tex
-(c:/Users/user/Python/Artificial_intelligence_/Neural_Networks_ANN/ANN_For_Diabete_Prediction/Project_Proposal/Project_Proposal.tex
+**c:/Users/user/Python/Github/diabetes_prediction_ann/Neural_Networks_ANN/ANN_For_Diabete_Prediction/Project_Proposal/Project_Proposal.tex
+(c:/Users/user/Python/Github/diabetes_prediction_ann/Neural_Networks_ANN/ANN_For_Diabete_Prediction/Project_Proposal/Project_Proposal.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17> (mas_proposal.cls
 Document Class: mas_proposal 2018/01/25 The MAS report class
@@ -792,15 +792,15 @@ Package rerunfilecheck Info: File `Project_Proposal.out' has not changed.
 (rerunfilecheck)             Checksum: 94C9E2FED5EF88CC9F399C2ED2736F59;1309.
  ) 
 Here is how much of TeX's memory you used:
- 26222 strings out of 476406
- 485336 string characters out of 2790040
+ 26220 strings out of 476406
+ 485382 string characters out of 2790040
  1860787 words of memory out of 3000000
  46030 multiletter control sequences out of 15000+600000
- 521960 words of font info for 99 fonts, out of 8000000 for 9000
+ 521911 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,12n,108p,1123b,862s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 114i,12n,108p,1129b,862s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\user\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Project_Proposal.pdf (5 pages, 214734 bytes).
+Output written on Project_Proposal.pdf (5 pages, 215223 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)

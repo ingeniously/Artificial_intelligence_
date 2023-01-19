@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.6)  16 JAN 2023 20:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.6)  19 JAN 2023 19:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/user/Python/Artificial_intelligence_/Neural_Networks_ANN/ANN_For_Diabete_Prediction/LaTex_Report/report.tex
-(c:/Users/user/Python/Artificial_intelligence_/Neural_Networks_ANN/ANN_For_Diabete_Prediction/LaTex_Report/report.tex
+**c:/Users/user/Python/Github/diabetes_prediction_ann/Neural_Networks_ANN/ANN_For_Diabete_Prediction/LaTex_Report/report.tex
+(c:/Users/user/Python/Github/diabetes_prediction_ann/Neural_Networks_ANN/ANN_For_Diabete_Prediction/LaTex_Report/report.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2022-12-17> (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -1025,6 +1025,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
+
+Overfull \hbox (8.96594pt too wide) in paragraph at lines 112--112
+|\OT1/lmr/bx/n/24.88 3. Build-ing the Ar-ti-fi-cial Neu-ral Net-
+ []
+
 [3]
 <images/sigmoid.png, id=138, 546.54187pt x 219.82124pt>
 File: images/sigmoid.png Graphic file (type png)
@@ -1082,17 +1087,18 @@ Overfull \hbox (44.10446pt too wide) in paragraph at lines 213--214
  [][] 
  []
 
-<images/confusion.png, id=162, 432.86719pt x 322.20375pt>
-File: images/confusion.png Graphic file (type png)
-<use images/confusion.png>
-Package pdftex.def Info: images/confusion.png  used on input line 226.
-(pdftex.def)             Requested size: 308.71106pt x 229.7987pt.
 [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.236 \end{itemize}
-                    <./images/accuracy.png>] [7
+l.218 \newpage
+               <./images/accuracy.png>]
+<images/confusion.png, id=183, 432.86719pt x 322.20375pt>
+File: images/confusion.png Graphic file (type png)
+<use images/confusion.png>
+Package pdftex.def Info: images/confusion.png  used on input line 226.
+(pdftex.def)             Requested size: 308.71106pt x 229.7987pt.
+ [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1134,18 +1140,18 @@ l.305
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 6A484285D8A411DF7DAACE8597B8212C;1896.
+(rerunfilecheck)             Checksum: E37FCE700177C6E3D0492DD28095507E;1881.
  ) 
 Here is how much of TeX's memory you used:
  26144 strings out of 476406
- 485970 string characters out of 2790040
- 1952787 words of memory out of 3000000
+ 486072 string characters out of 2790040
+ 1950787 words of memory out of 3000000
  45898 multiletter control sequences out of 15000+600000
  557179 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,8n,121p,1301b,1956s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 114i,8n,121p,1307b,1956s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}<C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on report.pdf (13 pages, 491289 bytes).
+Output written on report.pdf (13 pages, 491298 bytes).
 PDF statistics:
  258 PDF objects out of 1000 (max. 8388607)
  85 named destinations out of 1000 (max. 500000)
