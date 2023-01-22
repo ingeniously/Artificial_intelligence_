@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1674154383 "c:/Users/user/Python/Github/diabetes_prediction_ann/Neural_Networks_ANN/ANN_For_Diabete_Prediction/LaTex_Report/report.tex" "report.pdf" "report" 1674154386 0
+["pdflatex"] 1674419606 "c:/Users/user/Python/Github/diabetes_prediction_ann/Neural_Networks_ANN/ANN_For_Diabete_Prediction/LaTex_Report/report.tex" "report.pdf" "report" 1674419613 0
   "C:/Users/user/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1673781578 852506 d71fdec8e43815d9911d3a58726bce57 ""
   "C:/Users/user/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1673019385 23168133 546a4db55cc0bab8bf4c3a93dd6bf54d ""
   "C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc" 1256929440 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -207,12 +207,12 @@
   "images/logo-isetbz.png" 1673907081 119437 067361976779b28281b7a72ce889484d ""
   "images/report.png" 1673907081 16608 23441129b03dd8b8bf5411615bab5e7b ""
   "images/sigmoid.png" 1673907081 35690 e73a93bbeb5712ea9365fa537a6386e2 ""
-  "report.aux" 1674154386 7468 d403009f4b82dee97cb6cc817b2ef4ae "pdflatex"
-  "report.out" 1674154386 1881 e37fce700177c6e3d0492dd28095507e "pdflatex"
+  "report.aux" 1674419612 7468 d403009f4b82dee97cb6cc817b2ef4ae "pdflatex"
+  "report.out" 1674419612 1881 e37fce700177c6e3d0492dd28095507e "pdflatex"
   "report.tex" 1673907081 909 3d5bb9c79683addf1c9ead01ab88b003 ""
-  "report.toc" 1674154386 1089 e97eef1e2ff31908351ffc6a24c2ce85 "pdflatex"
+  "report.toc" 1674419612 1089 e97eef1e2ff31908351ffc6a24c2ce85 "pdflatex"
   "sections/00_abstract.tex" 1673907081 794 1d045874906a2f046397505b144cc481 ""
-  "sections/00_front_page.tex" 1673907081 1471 1cd56e825ebdf865d659ee0a5f434c0c ""
+  "sections/00_front_page.tex" 1674419605 1474 36f471d374162226c55013eaf76938a8 ""
   "sections/01_introduction.tex" 1674154379 12530 e43f4f938ce9e750cd740aac4227dadb ""
   (generated)
   "report.aux"
